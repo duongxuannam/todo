@@ -1,0 +1,47 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^4.1.4",
+    "axios": "^0.19.0",
+    "firebase": "^6.3.5",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "query-string": "^6.8.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-action-button": "^2.8.5",
+    "react-native-flash-message": "^0.1.11",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.5",
+    "reduxsauce": "^1.1.0",
+    "seamless-immutable": "^7.1.4",
+    "with-query": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
